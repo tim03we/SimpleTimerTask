@@ -1,0 +1,6 @@
+name: SimpleTimerTask
+main: tim03we\stt\SimpleTimerTask
+api: 3.0.0
+version: 1.0.0
+author: tim03we
+description: A PocketMine-MP Plugin

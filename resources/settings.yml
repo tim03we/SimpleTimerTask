@@ -1,0 +1,17 @@
+---
+# When should the countdown begin?
+# In Seconds! (Default = "20")
+start-time: "20"
+
+# Decide when to send the broadcast messages.
+# In Seconds!
+countdown: ["15", "10", "5", "3", "2", "1"]
+
+# Edit the time format for the broadcast message.
+time-format: "{hours} Hours, {minutes} Minutes and {seconds} Seconds"
+
+# Edit the broadcast message.
+messages:
+    remaining-time: "In {time-format} the task will be finished."
+    end: "Task finished."
+...
